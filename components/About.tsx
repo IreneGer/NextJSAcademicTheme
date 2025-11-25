@@ -7,15 +7,11 @@ const About = (): JSX.Element => {
 
   return (
     <section className="grid gap-12" id="about">
-      {/* Flex container: vertical on mobile, horizontal on desktop */}
-      <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start">
-        {/* Profile image */}
-        <div className="mb-6 md:mb-0 md:mr-8 w-full max-w-[260px]">
+      <div className="flex flex-col md:flex-row items-center md:items-start mx-auto w-full max-w-3xl px-4">
+        <div className="mr-0 md:mr-8 mb-6 md:mb-0 rounded-md">
           <ProfileImage />
         </div>
-
-        {/* Text content */}
-        <div className="flex flex-col max-w-xl w-full justify-evenly text-center md:text-left">
+        <div className="flex flex-col justify-evenly text-center md:text-left">
           <h1 className="text-4xl font-bold pb-4 md:pb-0">{personalInfo.name}</h1>
 
           <p>
@@ -37,9 +33,9 @@ const About = (): JSX.Element => {
             </p>
           )}
 
-          <p className="text-sm text-gray-400 mt-2">
+          <p className="text-sm text-gray-400 mt-4">
             Under construction...<br />
-            Re-architecting this site with some modern web technologies.
+            Re-architecting this site with modern web technologies.
           </p>
         </div>
       </div>

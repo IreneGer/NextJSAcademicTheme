@@ -1,35 +1,23 @@
-interface TeachingProps {
+interface TeachingItemProps {
   course: any;
   index: number;
 }
 
-const TeachingItem = ({ course, index }: TeachingProps): JSX.Element => {
+const TeachingItem = ({ course, index }: TeachingItemProps): JSX.Element => {
   return (
-    <div className="shadow-lg mb-8 mx-auto lg:w-11/12 lg:h-auto rounded-lg overflow-hidden">
-      <div className="bg-gray-50 p-8">
-        <h2 className="text-gray-700 font-semibold text-lg">{course.title}</h2>
-        {course.date && <p className="text-gray-400 text-sm mt-1">{course.date}</p>}
-
-        <p className="text-gray-500 mt-4 text-justify text-sm" style={{ whiteSpace: 'pre-line' }}>
-          {course.description}
-        </p>
-
-        {course.links && course.links.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-2">
-            {course.links
-              .filter((link: any) => link.url && link.url.trim() !== "")
-              .map((link: any, idx: number) => (
-                <a
-                  key={idx}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1 text-sm bg-black text-white rounded hover:bg-gray-800 transition"
-                >
-                  {link.name}
-                </a>
-              ))}
-          </div>
+    <div className="w-full">
+      <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
+        <div className="flex justify-between text-gray-500 text-sm mb-2">
+          <span>{course.university}</span>
+          <span>{course.date}</span>
+        </div>
+        <h3 className="text-gray-700 font-semibold text-lg">{course.role}</h3>
+        {course.courses && course.courses.length > 0 && (
+          <ul className="list-disc list-inside ml-4 mt-2 text-gray-700 text-sm">
+            {course.courses.map((c: string, i: number) => (
+              <li key={i}>{c}</li>
+            ))}
+          </ul>
         )}
       </div>
     </div>
