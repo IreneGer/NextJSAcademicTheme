@@ -1,24 +1,23 @@
 {
     "title": "Irene Germani",
     "name": "Irene Germani",
-    "domain":"https://nextjs-academic-theme.vercel.app/",
-    "copyright":"harrypotter.me",
+    "domain": "https://irenegermani.com/",
+    "copyright": "",
     "socialMedia": {
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/",
-        "GoogleScholar": "https://scholar.google.com/"
+        "GitHub": "https://github.com/IreneGer",
+        "LinkedIn": "https://www.linkedin.com/in/irene-germani-7b657917a/",
     },
     "about": {
-        "year": "7th-year",
+        "year": "",
         "department": {
             "name": "Political Economy",
-            "link": 
+            "link": ""
         },
         "college": {
             "name": "King's College London",
-            "link": 
+            "link": ""
         },
         "email": "irene.germani@kcl.ac.uk",
         "interest": "Political Behaviour, Fiscal Policy, EU Politics, Text-as-Data"
-
+    }
 }
