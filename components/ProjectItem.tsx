@@ -3,16 +3,34 @@ interface ProjectProps {
     index: number;
 }
 
-const ProjectItem = ({project, index}: ProjectProps): JSX.Element => {
+const ProjectItem = ({ project, index }: ProjectProps): JSX.Element => {
     return (
-      <div className="shadow-lg mb-8 mx-auto lg:w-11/12 lg:flex lg:flex-row lg:h-auto">
-        <img className="rounded-tr-lg rounded-tl-lg h-68 w-full lg:h-auto lg:w-6/12 lg:rounded-bl-lg lg:rounded-tr-none" src={project.img} alt="" />
-        <div className="w-full bg-gray-50 p-8 rounded-bl-lg rounded-br-lg lg:rounded-bl-none lg:rounded-tr-lg">
-          <h2 className="text-gray-700 font-semibold">{project.title}</h2>
-          <p className="text-sm text-gray-500 mt-4">{project.description}</p>
+        <div className="shadow-lg mb-8 mx-auto lg:w-11/12 lg:h-auto">
+            <div className="w-full bg-gray-50 p-8 rounded-lg">
+                <h2 className="text-gray-700 font-semibold">{project.title}</h2>
+                <p className="text-sm text-gray-500 mt-4 text-justify">{project.description}</p>
+
+                {/* Render links as smaller black buttons if they exist */}
+                {project.links && project.links.length > 0 && (
+                    <div className="mt-4 flex flex-wrap gap-2">
+                        {project.links
+                            .filter((link: any) => link.url && link.url.trim() !== "")
+                            .map((link: any, idx: number) => (
+                                <a
+                                    key={idx}
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="px-3 py-1 text-sm bg-black text-white rounded hover:bg-gray-800 transition"
+                                >
+                                    {link.name}
+                                </a>
+                            ))}
+                    </div>
+                )}
+            </div>
         </div>
-      </div>
-    )
+    );
 };
 
 export default ProjectItem;

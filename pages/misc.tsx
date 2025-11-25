@@ -1,23 +1,28 @@
-import {useState} from 'react';
-import {NextPage} from 'next';
-import {Audio} from 'react-loader-spinner';
-
-
-const Style={
-    height: 498,
-    width: 680,
-    frameborder: 0
-}
+import { useState } from 'react';
+import { NextPage } from 'next';
 
 const Misc: NextPage<unknown> = () => {
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     return (
-        <div className="items-center">
-            TBD
-            {/*<a class="twitter-timeline" width="280" height="300" href="https://twitter.com/jk_rowling?ref_src=twsrc%5Etfw">Tweets by jk_rowling</a> {<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}*/}
+        <div className="flex flex-col items-center justify-center max-w-3xl mx-auto mt-12">
+
+            <p className="text-gray-700 text-justify mb-6">
+            You can download my CV here. 
+            </p>
+
+            {/* CV Download Button */}
+            <a
+                href="CV_Germani.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition mb-6"
+            >
+                Download CV
+            </a>
         </div>
     );
 };
 
 export default Misc;
+

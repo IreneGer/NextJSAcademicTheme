@@ -1,11 +1,20 @@
 [
-    {
-        "id": "MG101",
-        "name": "Introduction to magic"
-    },
-    {
-        "id": "MG102",
-        "name": "Defense against the dark arts spells"
-    }
-
+  {
+    "title": "Guest Lecturer — King’s College London",
+    "date": "Mar 2024",
+    "description": "- 5SSPP211 Institutions, Economics and Change",
+    "links": []
+  },
+  {
+    "title": "Graduate Teaching Assistant — University College London",
+    "date": "Jan 2022 – Jun 2025",
+    "description": "- 5SSPP241 Statistics for Political Science II\n- 6SSPP373 The Political Economy of Inequality\n- 5SSPP211 Institutions, Economics and Change\n- 5SSPP265 Left‑Right Divide in Advanced Economies\n- 5SSPP230 European Union: Power, Politics and Economics",
+    "links": []
+  },
+  {
+    "title": "Senior Postgraduate Teaching Assistant — University College London",
+    "date": "Sep 2024 – Jan 2025",
+    "description": "- PUBL0055 Introduction to Quantitative Methods (MSc)",
+    "links": []
+  }
 ]

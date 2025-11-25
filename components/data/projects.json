@@ -1,25 +1,11 @@
 [
     {
-        "title": "Quidditch Seeker SDK",
-        "description": "A tool help you practice Quidditch Cup Champion",
-        "img": "/images/projects/rules.png"
-    },
-
-    {
-        "title": "Quidditch Seeker Tool",
-        "description": "A tool help you win Quidditch Cup Champion",
-        "img": "/images/projects/quidditch.png"
-    },
-
-    {
-        "title": "Quidditch Seeker SDK",
-        "description": "A tool help you practice Quidditch Cup Champion",
-        "img": "/images/projects/rules.png"
-    },
-
-    {
-        "title": "Quidditch Seeker Tool",
-        "description": "A tool help you win Quidditch Cup Champion",
-        "img": "/images/projects/quidditch.png"
+        "title": "CommonsCorpus",
+        "description": "CommonsCorpus is a machine-readable and annotated corpus of parliamentary speeches from the UK House of Commons (1970-2024). Parliamentary speech data is integrated with metadata on speakers’ socio-demographic information and party-political affiliation and is available as .csv files. Joint work with Joshua Cova.",
+        "links": [
+            { "name": "Repository", "url": "https://github.com/joshcova/CommonsCorpus" },
+            { "name": "Data", "url": "https://doi.org/10.7910/DVN/KXDDJU" }
+        ],
+        "img": ""
     }
 ]

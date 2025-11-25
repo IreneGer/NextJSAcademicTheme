@@ -1,106 +1,46 @@
 [
 	{
-		"id": 5,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Towards Generalized Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
+	  "id": 5,
+	  "author": "Irene Germani, Joshua Cova",
+	  "title": "Introducing CommonsCorpus: A Comprehensive Dataset of the House of Commons' Parliamentary Speeches",
+	  "conference": "Under review",
+	  "links": [
+		{ "name": "pdf", "url": "" },
+		{ "name": "slides", "url": "" },
+		{ "name": "video", "url": "" }
+	  ]
 	},
-
 	{
-		"id": 4,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Rethinking Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
+	  "id": 4,
+	  "author": "Irene Germani",
+	  "title": "Keeping Mum about Debt: The Impact of Party Cues on Public Fiscal Preferences",
+	  "conference": "Work in Progress",
+	  "links": [
+		{ "name": "pdf", "url": "" },
+		{ "name": "slides", "url": "" },
+		{ "name": "video", "url": "" }
+	  ]
 	},
-
 	{
-		"id": 3,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Pushing the Limits of Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
+	  "id": 3,
+	  "author": "Irene Germani",
+	  "title": "Releasing the Brake? Fiscal Rules, Public Attitudes, and the Covid-19 Pandemic",
+	  "conference": "Work in Progress",
+	  "links": [
+		{ "name": "pdf", "url": "" },
+		{ "name": "slides", "url": "" },
+		{ "name": "video", "url": "" }
+	  ]
 	},
-
 	{
-		"id": 2,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Defensing Against the Dark Arts Spells based on Reductor Curse",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
-	},
-
-	{
-		"id": 1,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "A Survey of Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
+	  "id": 2,
+	  "author": "Irene Germani, Siria Angino",
+	  "title": "The Euro Tower of Babel: A Cross-Country Analysis of the ECB-Related Media Coverage",
+	  "conference": "Work in Progress",
+	  "links": [
+		{ "name": "pdf", "url": "" },
+		{ "name": "slides", "url": "" },
+		{ "name": "video", "url": "" }
+	  ]
 	}
-]
+  ]  
