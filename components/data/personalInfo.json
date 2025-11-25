@@ -1,6 +1,6 @@
 {
-    "title": "Harry Potter",
-    "name": "Harry James Potter",
+    "title": "Irene Germani",
+    "name": "Irene Germani",
     "domain":"https://nextjs-academic-theme.vercel.app/",
     "copyright":"harrypotter.me",
     "socialMedia": {
@@ -11,31 +11,14 @@
     "about": {
         "year": "7th-year",
         "department": {
-            "name": "Gryffindor",
-            "link": "https://harrypotter.fandom.com/wiki/Gryffindor"
+            "name": "Political Economy",
+            "link": 
         },
         "college": {
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+            "name": "King's College London",
+            "link": 
         },
-        "advisor": {
-            "name": "Albus Dumbledor",
-            "link": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
-        },
-        "email": "harrypotter AT MyUniversity",
-        "interest": "Defense against Dark Arts Spell; Dark Creatures"
+        "email": "irene.germani@kcl.ac.uk",
+        "interest": "Political Behaviour, Fiscal Policy, EU Politics, Text-as-Data"
     },
-    "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter",
-    "education": [
-        {
-            "name": "The Auror Department(2007-2008, Visiting Scholar)",
-            "link": "https://harrypotter.fandom.com/wiki/British_Auror_Office"
-        },
-        {
-            "name": "Hogwarts Primary University(1911-1988, Bachelor's in Magic)",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
-        }
-    ]
-
-
 }
