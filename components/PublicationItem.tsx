@@ -9,7 +9,7 @@ const PublicationItem = ({ publication, index }: Props): JSX.Element => {
     return (
         <div className="mt-4 mb-8">
             <p className="text-base text-gray-500">
-                [{index}] {publication.author} <b><i>{publication.title}</i></b><br />
+                [{index+1}] {publication.author} <b><i>{publication.title}</i></b><br />
                 <span className="text-sm">{publication.conference}</span>
             </p>
             <p className="text-gray-500 flex justify-end text-sm font-bold">
