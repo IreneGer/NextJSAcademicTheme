@@ -5,7 +5,7 @@ const ProfileImage = (): JSX.Element => {
     return (
         <Image
         className="rounded-full select-none"
-        src="/images/me.jpg"
+        src="/images/me.jpeg"
         alt="My profile image"
         width={260}
         height={260}
