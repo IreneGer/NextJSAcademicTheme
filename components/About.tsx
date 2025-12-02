@@ -37,7 +37,7 @@ const About = (): JSX.Element => {
           <p className="text-sm text-gray-400 mt-4">
             My research focuses on the politics of economic shocks, political behaviour, and fiscal preferences. <br />
             My PhD project investigates the political economy of public fiscal preferences, by looking at how political factors shape perceptions of debt and fiscal rules.
-            I employ <strong>quantitative methods</strong>, <strong>causal inference</strong>, and <strong>text-as-data approaches</strong> in my work.<br>
+            I employ <strong>quantitative methods</strong>, <strong>causal inference</strong>, and <strong>text-as-data approaches</strong> in my work.<br />
             I hold an MA in Political Economy from King’s College London and previously worked in the Strategic Communication section of the European Central Bank.
 
           </p>
